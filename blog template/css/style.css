@@ -1,0 +1,215 @@
+
+.navigation
+{
+    height: 100px;
+    font-family: var(--font1);
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content
+{
+    height: 23vw;
+    display: flex;
+    font-family: var(--font1);
+    /* background-color: rgb(166, 218, 23); */
+    position: relative;
+    border-radius: 15px;
+}
+.content::after
+{
+    content: "";
+    background-image: url(/bg2.jpg);
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+
+}
+.content-left
+{
+    display: flex;
+    margin-top: 20px;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 0px 50px;
+    
+}
+.content-right img
+{
+    height: 100%;
+    width: 80%;
+    border-radius: 50px;
+    
+}
+
+.content-right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+*
+{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    
+}
+.left
+{
+    display: flex;
+   
+}
+.nav
+{
+    font-size: 20px;
+    display: flex;
+}
+.nav-left ul li 
+{
+    list-style: none;
+    font-family: var(--font2);
+    font-weight: 500;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px ;
+    margin: 0px 50px;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.nav-left ul li a:hover{
+    color: #4a4dca;
+}
+.right input
+{
+    margin: 10px 20px;
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-family: var(--font1);
+    font-size: 12px;
+    font-weight: bolder;
+    transform: translateY(4px);
+    box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+}
+.home-articles
+{
+    height: 878px;
+    width: 100%;
+    /* background-color: rgb(245, 209, 7); */
+    background-image: url(/vecteezy_men-insert-ideas-into-blog-and-web-content_.jpg);
+    opacity: 0.8d;
+    z-index: 2;
+    border-radius: 15px;
+    
+}
+
+h1{
+    font-family: var(--font1);
+    text-align: center;
+}
+span a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.footer
+{
+    display: flex;
+    /* background-color: rgb(13, 182, 27); */
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+    height: 50px;
+}
+.con a
+{
+    text-decoration: none;
+    color: black;
+
+}
+.con
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    font-family: var(--font2);
+}
+.home-article1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    z-index: 2;
+
+}
+.home-article1 img
+{
+    height: 200px;
+    width: 230px;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    border-radius: 100px;
+}
+.home-article1 p
+{
+    margin: 0px 25px;
+}
+.contact-content
+{
+    margin-top: 40px;
+    height: 34vw;
+    font-family: var(--font1);
+    position: relative;
+    border-radius: 15px;
+}
+.contact-content::after
+{
+    content: "";
+    background-image: url(/bg2.jpg);
+    z-index: -1;
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+}
+.form-box input
+{
+    width: 52vw;
+    padding: 10px 6px;
+    margin: 7px;
+
+    border:3px solid #4a4dca;
+    border-radius: 10px;
+    color: #4a4dca;
+    
+    font-family: var(--font1);
+}
+.btn 
+{
+    background-color: #4a4dca; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }

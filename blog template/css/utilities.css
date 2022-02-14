@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&family=Ubuntu&display=swap');
+:root
+{
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Ubuntu', sans-serif;
+}
+.max-width
+{
+    width: 100vw;
+}
+.med-width
+{
+    width: 80vw;
+}
+.min-width
+{
+    width: 50vw;
+}
+.m-auto
+{
+    margin: auto;
+}
+.nav-left
+{
+    font-size: 20px;
+    display: flex;
+}

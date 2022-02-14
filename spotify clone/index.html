@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify- Your Music is here</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./accessories/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"> <img src="./accessories/logo.png" alt="Error loading image..."> Spotify </li>
+            <li>Home</li>
+            <li>About Us</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songlist"> 
+            <h1>This is Best Song streaming website</h1>
+            <div class="songitemcontainer">
+                <div class="songItem">
+                    <img src="./accessories/covers/1.jpg" alt="Song">
+                    <span>Let me love you</span>
+                    <div class="songlistplay"> <span class="timestamp">05:25</span> <i id="0" class="far  songItemPlay fa-play-circle"></i> </div>
+                </div>
+                <div class="songItem">
+                    <img src="./accessories/covers/2.jpg" alt="Song">
+                    <span>Rataan Lambiyaan</span>
+                    <div class="songlistplay"> <span class="timestamp">04:55</span> <i id="1" class="far songItemPlay  fa-play-circle"></i> </div>
+                </div>
+                <div class="songItem">
+                    <img src="./accessories/covers/3.jpg" alt="Song">
+                    <span>Shrivalli</span>
+                    <div class="songlistplay"> <span class="timestamp">03:49</span> <i id="2" class="far songItemPlay  fa-play-circle"></i> </div>
+                </div>
+                <div class="songItem">
+                    <img src="./accessories/covers/4.jpg" alt="Song">
+                    <span>Thoda Thoda</span>
+                    <div class="songlistplay"> <span class="timestamp">04:00</span> <i id="3" class="far  songItemPlay fa-play-circle"></i> </div>
+                </div>
+                <div class="songItem">
+                    <img src="./accessories/covers/5.jpg" alt="Song">
+                    <span>Ooo Antva</span>
+                    <div class="songlistplay"> <span class="timestamp">03:25</span> <i id="4" class="far songItemPlay  fa-play-circle"></i> </div>
+                </div>
+                <div class="songItem">
+                    <img src="./accessories/covers/6.jpg" alt="Song">
+                    <span>Shape of You </span>
+                    <div class="songlistplay"> <span class="timestamp">04:20</span> <i id="5" class="far songItemPlay  fa-play-circle"></i> </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="songbanner"> </div>
+    </div>
+
+    <div class="bottom">
+        
+        <input type="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-fast-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterplay"></i>
+            <i class="fas fa-3x fa-fast-forward" id="next"  ></i>
+        </div>
+        <div class="songinfo">
+            <img src="./accessories/playing.gif" width="50px" id="gif" alt="2"> <span id="masterSongName">Shape of You</span>
+        </div>
+        
+    </div>
+
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/149174b292.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
